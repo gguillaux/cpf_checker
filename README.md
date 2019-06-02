@@ -19,3 +19,5 @@ The last 2 digits are obtained by:
 2. **Second digit**: sum of the product of each digit by its reverse index, starting with 9.
    * For example, if we have have a CPF = 123.456.789 we should do: sum(1 * 9, 2 * 8, ... , 9 * 1)
    * The sum should be divided by 11 and the remainder part should be yield as the second digit
+
+In both cases, if the remainder is 10 the validation digit should be considered as 0. 
