@@ -9,7 +9,7 @@ class CPF(cpf_number: String){
 }
 
 fun main(){
-    val c = CPF("378.962.058-07")
+    val c = CPF("999.999.999-99")
     println(c.cpf)
     println(c.cpf_clean)
 }
